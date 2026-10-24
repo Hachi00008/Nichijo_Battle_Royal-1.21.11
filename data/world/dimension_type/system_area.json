@@ -1,0 +1,36 @@
+{
+  "attributes": {
+    "minecraft:gameplay/water_evaporates": false,
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:gameplay/eyeblossom_open": false,
+    "minecraft:gameplay/creaking_active": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "never",
+      "can_set_spawn": "never",
+      "explodes": false,
+      "error_message": {
+        "text": "システムエリアで寝るとかエンジニアじゃないんだぞ"
+      }
+    },
+    "minecraft:gameplay/can_start_raid": false
+  },
+  "has_skylight": false,
+  "has_ceiling": false,
+  "coordinate_scale": 1,
+  "ambient_light": 1,
+  "has_fixed_time": true,
+  "logical_height": 384,
+  "skybox": "overworld",
+  "cardinal_light": "default",
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "min_y": -64,
+  "height": 384,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0,
+    "max_inclusive": 0
+  },
+  "monster_spawn_block_light_limit": 0
+}

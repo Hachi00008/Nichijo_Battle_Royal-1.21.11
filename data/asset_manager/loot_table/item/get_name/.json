@@ -1,0 +1,32 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "debug_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "text": "",
+                                    "italic": false
+                                },
+                                {
+                                    "nbt": "RawName",
+                                    "storage": "asset:item",
+                                    "interpret": true
+                                }
+                            ],
+                            "target": "item_name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
