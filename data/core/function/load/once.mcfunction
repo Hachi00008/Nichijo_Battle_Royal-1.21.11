@@ -13,3 +13,18 @@
 
 # シュルカーボックス
     execute in world:system_area run setblock 0 0 0 pink_shulker_box{lock:{items:"debug_stick"}}
+
+# スコアボードの読み込み
+    function core:load/scoreboard
+
+# ゲームルールの読み込み
+    function core:load/gamerule
+
+# ボスバーの読み込み
+    function core:load/bossbar
+
+# チームの読み込み
+    function core:load/team
+
+# ストレージの読み込み
+    function core:load/storage
