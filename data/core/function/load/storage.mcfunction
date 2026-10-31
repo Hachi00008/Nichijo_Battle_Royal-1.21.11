@@ -8,6 +8,7 @@
 # ゲームデータの読み込み
     execute unless data storage nichi: game_state.status run data modify storage nichi: game_state.status set value "staying"
     execute unless data storage nichi: game_state.mode run data modify storage nichi: game_state.mode set value "solo"
+    execute unless data storage nichi: game_state.border_mode run data modify storage nichi: game_state.border_mode set value "normal"
 
 # 読み込み完了時のメッセージ
     tellraw @a ["",{storage:"global:",nbt:Prefix.info,interpret:true},{text:"ストレージの読み込み完了"}]

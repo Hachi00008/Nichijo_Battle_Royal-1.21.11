@@ -2,7 +2,7 @@
 #
 # give処理発火
 #
-# @within as player
+# @input as player
 
 # マクロ
     $function asset:item/$(id)/give/

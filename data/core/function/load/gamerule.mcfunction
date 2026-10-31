@@ -32,7 +32,7 @@
     gamerule freeze_damage false
 
 # 即時リスポーン
-    gamerule immediate_respawn
+    gamerule immediate_respawn true
 
 # キープインベントリ
     gamerule keep_inventory true
@@ -56,7 +56,7 @@
     gamerule random_tick_speed 0
 
 # デバッグ情報の制限
-    gamerule reduced_debug_info true
+    gamerule reduced_debug_info false
 
 # リスポーン地点の半径
     gamerule respawn_radius 0

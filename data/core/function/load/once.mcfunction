@@ -14,6 +14,10 @@
 # シュルカーボックス
     execute in world:system_area run setblock 0 0 0 pink_shulker_box{lock:{items:"debug_stick"}}
 
+# ワールドボーダーのダメージ設定
+    worldborder damage amount 0.01
+    worldborder damage buffer 1.0
+
 # スコアボードの読み込み
     function core:load/scoreboard
 

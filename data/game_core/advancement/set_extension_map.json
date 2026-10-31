@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "set_extension": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "armor_stand",
+                                    "predicates": {
+                                        "custom_data": {
+                                            "set_map": "extension"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game_core:set_map/extension_map_center"
+    }
+}

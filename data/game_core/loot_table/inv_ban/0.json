@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 20,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrier",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 1,
+                                "custom_data": {
+                                    "inv_ban":true
+                                },
+                                "tooltip_display": {
+                                    "hide_tooltip": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

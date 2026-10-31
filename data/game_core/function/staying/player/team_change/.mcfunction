@@ -30,3 +30,9 @@
 
 # イエローチーム
     execute if block ~ ~-1 ~ yellow_wool run function game_core:staying/player/team_change/yellow
+
+# 観戦
+    execute if block ~ ~-1 ~ gray_wool run function game_core:staying/player/team_change/spectate
+
+# リセット
+    scoreboard players reset $Team_Player Temporary
